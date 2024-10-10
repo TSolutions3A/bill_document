@@ -71,13 +71,14 @@ i {
   display: block;
 }
 .navbar-brand img {
-  width: 160px;
+  width: 350px;
 }
 .navbar-brand span {
   display: block;
   text-align: center;
   font-size: 14px;
   margin-top: -14px;
+  margin-left: -10px;
   font-weight: 600;
   font-style: italic;
 }
@@ -101,7 +102,9 @@ i {
 .nav-left-item h5 {
   margin: 10px 0;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: bolder;
+  word-wrap: break-word;
+  margin-right: 20px;
 }
 .nav-right-items {
   justify-content: flex-start;
@@ -225,13 +228,11 @@ i {
 .section-footer {
   padding: 12px 40px;
 }
-.footer-brand {
-}
 .footer-item h3 {
   margin: 15px 0;
 }
 .footer-brand img {
-  width: 100%;
+  width: 80%;
 }
 
 .footer-result {
@@ -257,9 +258,10 @@ i {
 }
 .footer-figure .col-6 h5 {
   font-size: 20px;
+  font-family: fangsong;
 }
 .footer-figure .col-6 h6 {
-  font-size: 14px;
+  font-size: 16px;
   color: gray;
   font-weight: 400;
 }
